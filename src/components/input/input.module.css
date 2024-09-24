@@ -1,0 +1,8 @@
+.input {
+  max-width: 700px;
+  width: 100%;
+  padding: 12px 24px;
+  border-radius: 10px;
+  border: 1px solid #cfcfcf;
+  font-size: 16px;
+}

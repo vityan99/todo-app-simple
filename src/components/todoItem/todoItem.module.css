@@ -1,0 +1,24 @@
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.todo-item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.todo-item__title {
+  font-size: 18px;
+}
+
+.todo-item__title--cross {
+  text-decoration: line-through;
+}
+
+.todo-item__controllers {
+  display: flex;
+  gap: 5px;
+}

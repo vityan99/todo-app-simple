@@ -1,0 +1,11 @@
+.btn {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn--primary {
+  font-size: 16px;
+  padding: 12px 28px;
+  border: 1px solid #cfcfcf;
+  border-radius: 10px;
+}
