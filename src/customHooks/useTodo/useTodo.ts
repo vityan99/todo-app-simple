@@ -10,7 +10,7 @@ type TodosType = ITodo[];
 
 interface IUseTodo {
   todos: TodosType;
-  addTodo: (todo: todo) => void;
+  addTodo: (todo: ITodo) => void;
   updateTodoStatus: (date: Date) => void;
   removeTodo: (date: Date) => void;
 }
@@ -20,7 +20,7 @@ type UseToDoReturnType = IUseTodo[];
 const useTodo = (initialState: []): UseToDoReturnType => {
   const [todos, setTodos] = useState<TodosType>(initialState);
 
-  const addTodo = (todo: todo): void => setTodos((current) => [...current, todo]);
+  const addTodo = (todo: ITodo): void => setTodos((current) => [...current, todo]);
 
   const updateTodoStatus = (date: Date): void => {
     setTodos((current) =>
