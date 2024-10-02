@@ -1,12 +1,12 @@
 import { useState } from "react";
 
-interface todo {
+interface ITodo {
   title: string;
   date: Date;
   done: boolean;
 }
 
-type TodosType = todo[];
+type TodosType = ITodo[];
 
 interface IUseTodo {
   todos: TodosType;
